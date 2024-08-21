@@ -1,2 +1,37 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-green: #00ff37;
+	--ion-color-green-rgb: 0,255,55;
+	--ion-color-green-contrast: #000000;
+	--ion-color-green-contrast-rgb: 0,0,0;
+	--ion-color-green-shade: #00e030;
+	--ion-color-green-tint: #1aff4b;
+}
+
+.ion-color-green {
+	--ion-color-base: var(--ion-color-green);
+	--ion-color-base-rgb: var(--ion-color-green-rgb);
+	--ion-color-contrast: var(--ion-color-green-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-green-contrast-rgb);
+	--ion-color-shade: var(--ion-color-green-shade);
+	--ion-color-tint: var(--ion-color-green-tint);
+}
+
+:root {
+	--ion-color-smalld: #80b1e5;
+	--ion-color-smalld-rgb: 128,177,229;
+	--ion-color-smalld-contrast: #000000;
+	--ion-color-smalld-contrast-rgb: 0,0,0;
+	--ion-color-smalld-shade: #719cca;
+	--ion-color-smalld-tint: #8db9e8;
+}
+
+.ion-color-smalld {
+	--ion-color-base: var(--ion-color-smalld);
+	--ion-color-base-rgb: var(--ion-color-smalld-rgb);
+	--ion-color-contrast: var(--ion-color-smalld-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-smalld-contrast-rgb);
+	--ion-color-shade: var(--ion-color-smalld-shade);
+	--ion-color-tint: var(--ion-color-smalld-tint);
+}
